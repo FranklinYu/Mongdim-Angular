@@ -5,5 +5,5 @@ export class Item {
     public price: number,
     public currency: string,
     public pictures: string[] = []
-  ){}
+  ) {}
 }

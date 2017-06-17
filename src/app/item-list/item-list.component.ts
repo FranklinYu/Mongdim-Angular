@@ -10,7 +10,7 @@ import { Item } from 'app/models/item';
 })
 export class ItemListComponent implements OnInit {
 
-  protected items: Item[];
+  items: Item[];
 
   constructor(private itemService: ItemService) { }
 
