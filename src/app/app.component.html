@@ -1,5 +1,10 @@
 <nav>
-  <a routerLink="/items">all</a>
+  <a routerLink="/items" routerLinkActive="active">all</a>
+  <div class="user-info">
+    <span class="new-user">
+      <a routerLink="/oauth" routerLinkActive="active">Log In / Register</a>
+    </span>
+  </div>
 </nav>
 
 <router-outlet></router-outlet>
