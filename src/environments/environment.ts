@@ -6,4 +6,5 @@
 export const environment = {
   production: false,
   client_id: '820674098491-75edrk3edoik2f6v1aebsitvl4an2ie9.apps.googleusercontent.com',
+  title: 'Mongdim'
 };
